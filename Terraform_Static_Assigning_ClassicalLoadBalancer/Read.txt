@@ -1,0 +1,14 @@
+Below Variables need to Update in the Folder
+
+providers.tf File
+access_key = ""
+secret_key = ""
+
+route53.tf File
+zone_id = ""
+name    = "domain.info"
+
+loadbalancer.tf File
+ssl_certificate_id = "arn:aws:iam::accountID:server-certificate/CertificateName"
+
+terraform-demo keypair create from frontend
